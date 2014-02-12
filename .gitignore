@@ -1,5 +1,9 @@
-web/wp-content/uploads
-web/wp-content/plugins/admin-color-schemes/
-web/wp-content/themes/
 .DS_Store
 .idea
+*sublime*
+wp-config.php
+wordpress
+wp-content/plugins/admin-color-schemes/
+wp-content/plugins/debug-bar/
+wp-content/plugins/debug-bar-cron/
+wp-content/uploads/
