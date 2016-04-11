@@ -1,10 +1,10 @@
 <?php
 /**
- * Class WNPA_Feed_Item
+ * Class PFI_Feed_Item
  *
- * Manage the feed item content type used by the WNPA Syndication plugin.
+ * Manage the feed item content type.
  */
-class WNPA_Feed_Item {
+class PFI_Feed_Item {
 
 	/**
 	 * @var string Slug used for the visibility taxonomy.
@@ -588,5 +588,5 @@ class WNPA_Feed_Item {
 		return;
 	}
 }
-global $wnpa_feed_item;
-$wnpa_feed_item = new WNPA_Feed_Item();
+global $pfi_feed_item;
+$pfi_feed_item = new PFI_Feed_Item();

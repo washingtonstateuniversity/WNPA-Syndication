@@ -1,11 +1,11 @@
 <?php
 /**
- * Class WNPA_External_Source
+ * Class PFI_External_Source
  *
  * Track external feeds to parse on a regular basis for news items to be added as
  * feed items to be consumed by others.
  */
-class WNPA_External_Source {
+class PFI_External_Source {
 
 	/**
 	 * @var string slug to be used for the external source content type.
@@ -231,7 +231,7 @@ class WNPA_External_Source {
 	 */
 	private function _consume_external_source( $feed_url, $post_id, $include_items = true ) {
 		/* @type WPDB $wpdb */
-		global $wpdb, $wnpa_feed_item;
+		global $wpdb, $pfi_feed_item;
 
 		update_post_meta( $post_id, '_wnpa_feed_last_status', time() );
 
@@ -358,7 +358,7 @@ class WNPA_External_Source {
 					'post_date'    => $date,
 					'post_content' => wp_kses_post( $content ),
 					'post_status'  => 'publish',
-					'post_type'    => $wnpa_feed_item->item_content_type,
+					'post_type'    => $pfi_feed_item->item_content_type,
 				);
 				$item_post_id = wp_insert_post( $post_args );
 
@@ -393,5 +393,5 @@ class WNPA_External_Source {
 		return 30;
 	}
 }
-global $wnpa_external_source;
-$wnpa_external_source = new WNPA_External_Source();
+global $pfi_external_source;
+$pfi_external_source = new PFI_External_Source();

@@ -1,11 +1,13 @@
 <?php
 /**
- * Class WNPA_Access_Key
+ * Class PFI_Access_Key
  *
  * Provides functionality for creating and verifying the access keys
  * used for basic authentication with the WNPA system.
+ *
+ * @todo Deprecate and move to a WNPA specific extension
  */
-class WNPA_Access_Key {
+class PFI_Access_Key {
 
 	/**
 	 * @var string The meta key used in user meta for the access key.
@@ -123,5 +125,5 @@ class WNPA_Access_Key {
 		return $query_vars;
 	}
 }
-global $wnpa_access_key;
-$wnpa_access_key = new WNPA_Access_Key();
+global $pfi_access_key;
+$pfi_access_key = new PFI_Access_Key();

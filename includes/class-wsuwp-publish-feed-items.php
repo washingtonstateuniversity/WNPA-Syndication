@@ -16,9 +16,9 @@ class WSUWP_Publish_Feed_Items {
 	 */
 	public static function get_instance() {
 		if ( ! isset( self::$instance ) ) {
-			include dirname( dirname( __FILE__ ) ) . '/includes/class-wnpa-feed-item.php';
-			include dirname( dirname( __FILE__ ) ) . '/includes/class-wnpa-access-key.php';
-			include dirname( dirname( __FILE__ ) ) . '/includes/class-wnpa-external-source.php';
+			include dirname( dirname( __FILE__ ) ) . '/includes/class-pfi-feed-item.php';
+			include dirname( dirname( __FILE__ ) ) . '/includes/class-pfi-access-key.php';
+			include dirname( dirname( __FILE__ ) ) . '/includes/class-pfi-external-source.php';
 
 			self::$instance = new WSUWP_Publish_Feed_Items();
 		}
