@@ -1,12 +1,12 @@
-# WNPA Syndication
+# Publish Feed Items
 
-[![Build Status](https://travis-ci.org/washingtonstateuniversity/WNPA-Syndication.svg?branch=master)](https://travis-ci.org/washingtonstateuniversity/WNPA-Syndication)
+[![Build Status](https://travis-ci.org/washingtonstateuniversity/WSUWP-Plugin-Publish-Feed-Items.svg?branch=master)](https://travis-ci.org/washingtonstateuniversity/WSUWP-Plugin-Publish-Feed-Items)
 
-WNPA Syndication is a [WordPress](http://wordpress.org) plugin used to manage and republish content from multiple external sources into a single consumable feed.
+Publish Feed Items is a [WordPress](http://wordpress.org) plugin used to manage and republish content from multiple external RSS feeds.
 
 ## Overview
 
-The primary objective for WNPA Syndication is to ease the sharing of news stories between several organizations.
+The primary objective for Publish Feed Items is to ease the sharing of aggregated stories related to a site.
 
 This plugin offers a central area for content from multiple external sources to be stored. Content is republished through a single feed that can be used to augment local news collections.
 

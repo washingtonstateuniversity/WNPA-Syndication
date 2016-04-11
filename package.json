@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/washingtonstateuniversity/wnpa-syndication"
+    "url": "https://github.com/washingtonstateuniversity/wsuwp-plugin-publish-feed-items"
   },
   "devDependencies": {
     "grunt": "~0.4.5",

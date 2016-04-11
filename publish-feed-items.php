@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Publish Feed Items
- * Plugin URI: https://github.com/washingtonstateuniversity/wnpa-syndication
+ * Plugin URI: https://github.com/washingtonstateuniversity/wsuwp-plugin-publish-feed-items
  * Description: Manage and republish content from multiple external RSS feeds.
  * Author: washingtonstateuniversity, jeremyfelt
  * Version 0.3.2
