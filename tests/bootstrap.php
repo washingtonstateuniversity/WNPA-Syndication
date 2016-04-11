@@ -8,7 +8,7 @@ if ( ! $_tests_dir ) {
 require_once $_tests_dir . '/includes/functions.php';
 
 function _manually_load_plugin() {
-	require dirname( __FILE__ ) . '/../wnpa-syndication.php';
+	require dirname( __FILE__ ) . '/../publish-feed-items.php';
 }
 tests_add_filter( 'muplugins_loaded', '_manually_load_plugin' );
 
